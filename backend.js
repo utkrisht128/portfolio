@@ -5,7 +5,7 @@ const path = require("path");
 const http = require("http");
 const hostname = '127.0.0.1';
 const bodyparser = require("body-parser");
-const port = 80;
+const port = process.env.PORT || 80;
 app.use('/static', express.static('static')) // For serving static files
 app.use(express.urlencoded())
 
