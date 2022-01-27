@@ -1,0 +1,72 @@
+body{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.navbarinside{
+    display: flex;
+    background-color: rgb(10, 18, 219,0.85);
+}
+.navbarinside .link{
+    list-style: none;
+    /* border-radius: 20px; */
+    position: absolute;
+    right: 8%;
+    display: flex;
+    margin: 5px 0px;
+    padding: 16px 10px;
+}
+.navbarinside .n{
+    list-style: none;
+    padding: 2px 170px;
+    
+}
+#name{
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.navbarinside ul a{
+    text-decoration: none;
+    color: yellow;
+    margin: 2px 60px;
+    padding: 2px 2px;
+}
+.card{
+    width: 1570px;
+    height: 150px;
+    margin: 4px 2px;
+    display: flex;
+    
+}
+.card img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+
+}
+#h1{
+    text-align: center;
+    font-size: 50px;
+}
+.card-name{
+    display: flex;
+    
+}
+.card-name h2{
+    margin: 0px 217px;
+   
+}
+#blog{
+    margin: 0px 235px;
+   
+}
+.card img:hover{
+    transform: scale(1.5);
+}
+
+a:is(:link,:active,:visited).active{
+   
+    background-color: black;
+    
+}

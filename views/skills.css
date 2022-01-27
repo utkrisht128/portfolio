@@ -1,0 +1,253 @@
+body {
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0%;
+}
+
+.navbarinside {
+  display: flex;
+  background-color: rgb(10, 17, 219, 0.85);
+}
+
+.navbarinside .link {
+  list-style: none;
+  /* border-radius: 20px; */
+  position: absolute;
+  right: 8%;
+  display: flex;
+  margin: 5px 0px;
+  padding: 16px 10px;
+}
+
+.navbarinside .n {
+  list-style: none;
+  padding: 2px 170px;
+}
+
+#name {
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.navbarinside ul a {
+  text-decoration: none;
+  color: yellow;
+  margin: 2px 60px;
+  padding: 2px 2px;
+}
+
+.card {
+  width: 1570px;
+  height: 170px;
+  margin: 60px 0px;
+  display: flex;
+}
+.part {
+  margin: 2px 2px;
+  padding: 2px 181px;
+}
+
+.card img {
+  height: 100px;
+  width: 100px;
+  margin: 23px 2px;
+}
+
+#h1 {
+  padding: 12px 2px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.card img:hover {
+  transform: scale(1.5);
+}
+a:is(:link, :active, :visited).active {
+  background-color: black;
+}
+.progress {
+  height: 20px;
+  width: 150px;
+  background-color: #d8d8d8;
+  position: relative;
+  z-index: -1;
+}
+#progressBar1 {
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.479);
+  animation: progressanimation1 5s forwards;
+}
+#progressBar2 {
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.479);
+  animation: progressanimation2 5s forwards;
+}
+#progressBar3 {
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.479);
+  animation: progressanimation3 5s forwards;
+}
+#progressBar4 {
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.479);
+  animation: progressanimation4 5s forwards;
+}
+#progressBar5 {
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.479);
+  animation: progressanimation5 5s forwards;
+}
+#progressBar6 {
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.479);
+  animation: progressanimation6 5s forwards;
+}
+#progressBar7 {
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.479);
+  animation: progressanimation7 5s forwards;
+}
+#progressBar8 {
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.479);
+  animation: progressanimation8 5s forwards;
+}
+#progressBar9 {
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.479);
+  animation: progressanimation9 5s forwards;
+}
+#progressBar10 {
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.479);
+  animation: progressanimation10 5s forwards;
+}
+#progressBar11 {
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.479);
+  animation: progressanimation11 5s forwards;
+}
+#progressBar12 {
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.479);
+  animation: progressanimation12 5s forwards;
+}
+@keyframes progressanimation1 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes progressanimation2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+@keyframes progressanimation3 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes progressanimation4 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes progressanimation5 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes progressanimation6 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes progressanimation7 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes progressanimation8 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes progressanimation9 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes progressanimation10 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes progressanimation11 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes progressanimation12 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+h3 {
+  margin: 2px 10px;
+  padding: 2px 41px;
+}
