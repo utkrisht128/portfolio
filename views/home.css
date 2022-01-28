@@ -2,12 +2,13 @@ body {
   margin: 0px 0px;
   padding: 0px 0px;
 }
-.hamburger {
-  display: none;
+.navbar{
+  display: block;
+  width: 100%;
+  background-color: rgb(10, 18, 219, 0.85);
 }
 .navbarinside {
   display: flex;
-  background-color: rgb(10, 18, 219, 0.85);
 }
 .navbarinside .link {
   list-style: none;
@@ -177,37 +178,61 @@ body {
 a:is(:link, :active, :visited).active {
   background-color: black;
 }
+.openMenu {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  right: -23%;
+  margin: 9px 2px;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: yellow;
+}
 
 
 @media (min-width: 390px) and (max-width: 1581px) {
-  .navbar {
-    display: none;
-  }
-  .hamburger {
+  .navbar{
     display: block;
-    width: 492px;
-    background-color: rgb(10, 18, 219, 0.85);
+    width: 493px;
+    background-color: rgb(10, 18, 219, 0.85) ;
   }
-  .hamburgerinside {
-    display: flex;
+  .navbarinside .n{
+    padding: 2px 5px;
   }
-  .hamburgerinside .hn {
-    list-style: none;
-    padding: 2px 20px;
+  .navbar .link {
+    height: 50vh;
+    position: fixed;
+    top: 55px;
+    left: -104%;
+    width: 100%;
+    z-index: 101;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: rgb(10, 18, 219,0.55);
+    transition: 0.3s;
   }
-  #hn1 a {
-    color: yellow;
-    font-size: 24px;
-    font-weight: bolder;
-    cursor: pointer;
-    text-decoration: none;
+  .navbar .link.active{
+    left: 0;
   }
-  .openMenu img {
-    position: absolute;
-    top: 0%;
-    right: -25%;
-    height: 55px;
-    width: 50px;
+  nav .openMenu {
+    display: block;
+    z-index: 102;
+  }
+  .openMenu.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .openMenu.active .bar:nth-child(1) {
+    transform: rotate(45deg) translateY(12px);
+  }
+  .openMenu.active .bar:nth-child(3) {
+    transform: rotate(-45deg) translateY(-12px);
   }
   #dp {
     margin: 5px -80px;
@@ -229,42 +254,5 @@ a:is(:link, :active, :visited).active {
     right: -26%;
     top: 26.5%;
   }
-  .closeMenu img {
-    position: absolute;
-    top: 0%;
-    right: 0%;
-    height: 55px;
-    width: 50px;
-    /* display: none; */
-  }
-  nav .mainMenu {
-    list-style: none;
-    height: 1057px;
-    position: fixed;
-    top: -1%;
-    right: 0;
-    left: 0;
-    z-index: 101;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: rgb(10, 17, 219);
-    transition: top 1s ease;
-    /* display: none; */
-  }
-  .mainMenu li{
-    margin: 100px 2px;
-  }
-  .mainMenu a {
-    text-decoration: none;
-    color: yellow;
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    align-items: center;
-    margin-top: 30px; 
-  }
-}
 
+}

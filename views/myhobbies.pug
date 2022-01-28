@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,44 +8,63 @@
     <link rel="stylesheet" href="/views/myhobbies.css">
     <title>My Hobbies</title>
     style
-      include myhobbies.css
-    
+     include myhobbies.css
+
 </head>
+
 <body>
     <nav class="navbar">
         <div class="navbarinside">
-                <ul class="n">
-                    <li id="name"><a href="/home.html">Utkrisht Buttolia</a></li>
-                </ul>
-                <ul class="link">
-                    <li><a href="/home.html">Home</a></li>
-                    <li><a href="/myhobbies.html">My Hobbies</a></li>
-                    <li><a href="/skills.html">Skills</a></li>
-                </ul>
+            <ul class="n">
+                <li id="name"><a href="/home.html">Utkrisht Buttolia</a></li>
+            </ul>
+            <div class="openMenu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="link">
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/myhobbies.html">My Hobbies</a></li>
+                <li><a href="/skills.html">Skills</a></li>
+            </ul>
         </div>
     </nav>
     <h1 id="h1">My Hobbies</h1>
+
     <div class="card">
-        <img src="/static/programming.png" alt="Coding">
-        <img src="/static/cyber-security.png" alt="cyber-security">
-        <img src="/static/blogging.png" alt="blogging">
+        <div class="part">
+            <img src="/static/programming.png" alt="Coding">
+            <h2 id="code">Coding</h2>
+        </div>
+        <div class="part">
+            <img src="/static/cyber-security.png" alt="cyber-security">
+            <h2 id="cyber">Cyber Security</h2>
+        </div>
+        <div class="part">
+            <img src="/static/blogging.png" alt="blogging">
+            <h2 id="blog">Blogging</h2>
+        </div>
     </div>
-    <div class="card-name">
-        <h2>Coding</h2>
-        <h2>Cyber Security</h2>
-        <h2 id="blog">Blogging</h2>
-    </div>
+
     <div class="card">
-        <img src="/static/soccer-player.png" alt="football">
-        <img src="/static/badminton.png" alt="badminton">
-        <img src="/static/guitar.png" alt="guitar">
+        <div class="part">
+            <img src="/static/soccer-player.png" alt="football">
+            <h2>Football</h2>
+        </div>
+        <div class="part">
+            <img src="/static/badminton.png" alt="badminton">
+            <h2>Badminton</h2>
+        </div>
+        <div class="part"  >
+            <img src="/static/guitar.png" alt="guitar">
+            <h2>Guitar</h2>
+        </div>
     </div>
-    <div class="card-name">
-        <h2>Football</h2>
-        <h2>Badminton</h2>
-        <h2>Guitar</h2>
-    </div>
+
 </body>
-script 
+script
+    include hobbies.js
     include active.js
+
 </html>

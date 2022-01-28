@@ -34,33 +34,26 @@ body{
 }
 .card{
     width: 1570px;
-    height: 150px;
-    margin: 4px 2px;
+    height: 160px;
+    margin: 60px 0px;
     display: flex;
     
 }
+.part {
+    margin: 2px 0px;
+    padding: 2px 205px;
+  }
 .card img{
     height: 100px;
     width: 100px;
-    margin: auto;
-
+    margin: 23px 2px;
 }
 #h1{
+    padding: 5px 2px;
     text-align: center;
     font-size: 50px;
 }
-.card-name{
-    display: flex;
-    
-}
-.card-name h2{
-    margin: 0px 217px;
-   
-}
-#blog{
-    margin: 0px 235px;
-   
-}
+
 .card img:hover{
     transform: scale(1.5);
 }
@@ -69,4 +62,86 @@ a:is(:link,:active,:visited).active{
    
     background-color: black;
     
+}
+.openMenu {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: -23%;
+    margin: 9px 2px;
+  }
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: yellow;
+  }
+
+@media (min-width: 390px) and (max-width: 1581px) {
+    .navbar{
+      display: block;
+      width: 510px;
+      background-color: rgb(10, 18, 219, 0.85) ;
+    }
+    .navbarinside .n{
+      padding: 2px 5px;
+    }
+    .navbar .link {
+      height: 50vh;
+      position: fixed;
+      top: 55px;
+      left: -104%;
+      width: 100%;
+      z-index: 101;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      background: rgb(10, 18, 219,0.55);
+      transition: 0.3s;
+    }
+    .navbar .link.active{
+      left: 0;
+    }
+    nav .openMenu {
+      display: block;
+      z-index: 102;
+    }
+    .openMenu.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+    .openMenu.active .bar:nth-child(1) {
+      transform: rotate(45deg) translateY(12px);
+    }
+    .openMenu.active .bar:nth-child(3) {
+      transform: rotate(-45deg) translateY(-12px);
+    }
+    .card{
+        flex-direction: column;
+        width: 400px;
+        height: 1200px;
+        margin: 45px 0px;
+        padding: 2px 2px;
+        
+    }
+    .card img{
+        height: 200px;
+        width: 200px;
+        margin: 18px 2px; 
+    }
+    #h1{
+        padding: 5px 25px;
+        text-align: center;
+        font-size: 50px;
+    }
+    .part{
+        text-align: center;
+        font-size: 20px;
+        margin: 43px 0px;
+        padding: 2px 100px;
+    }
+    
+  
 }
