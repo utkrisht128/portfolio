@@ -54,7 +54,7 @@ body {
 }
 .card {
   width: 500px;
-  height: 400px;
+  height: 300px;
   border: 2px solid grey;
   margin: 80px 148px;
   padding: 26px 33px;
@@ -202,6 +202,7 @@ a:is(:link, :active, :visited).active {
     width: 510px;
     background-color: rgb(10, 18, 219, 0.85) ;
   }
+
   .navbarinside .n{
     padding: 2px 5px;
   }
@@ -247,7 +248,7 @@ a:is(:link, :active, :visited).active {
     margin: 40px 29px;
     padding: 40px 0px;
     width: 400px;
-    height: 300px;
+    height: 350px;
   }
   .sc {
     position: absolute;
