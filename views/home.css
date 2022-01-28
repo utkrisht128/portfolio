@@ -54,7 +54,7 @@ body {
 }
 .card {
   width: 500px;
-  height: 300px;
+  height: 400px;
   border: 2px solid grey;
   margin: 80px 148px;
   padding: 26px 33px;
@@ -199,7 +199,7 @@ a:is(:link, :active, :visited).active {
 @media (min-width: 390px) and (max-width: 1581px) {
   .navbar{
     display: block;
-    width: 493px;
+    width: 510px;
     background-color: rgb(10, 18, 219, 0.85) ;
   }
   .navbarinside .n{
