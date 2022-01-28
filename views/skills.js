@@ -4,5 +4,4 @@ const openMenu = document.querySelector(".openMenu");
 openMenu.addEventListener("click",() => {
     openMenu.classList.toggle("active");
     mainMenu.classList.toggle("active");
-    console.log("click")
 });

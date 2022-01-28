@@ -95,6 +95,8 @@ a:is(:link,:active,:visited).active{
       top: 55px;
       left: -104%;
       width: 100%;
+      gap: 60px;
+      font-size: 30px;
       z-index: 101;
       flex-direction: column;
       justify-content: center;

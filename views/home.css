@@ -199,7 +199,7 @@ a:is(:link, :active, :visited).active {
 @media (min-width: 390px) and (max-width: 1581px) {
   .navbar{
     display: block;
-    width: 510px;
+    width: 515px;
     background-color: rgb(10, 18, 219, 0.85) ;
   }
 
@@ -211,6 +211,8 @@ a:is(:link, :active, :visited).active {
     position: fixed;
     top: 55px;
     left: -104%;
+    gap: 60px;
+    font-size: 30px;
     width: 100%;
     z-index: 101;
     flex-direction: column;
@@ -248,7 +250,7 @@ a:is(:link, :active, :visited).active {
     margin: 40px 29px;
     padding: 40px 0px;
     width: 400px;
-    height: 350px;
+    height: 370px;
   }
   .sc {
     position: absolute;

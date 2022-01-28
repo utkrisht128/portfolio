@@ -3,7 +3,7 @@ body {
   padding: 0px 0px;
 }
 .navbar {
-  position: fixed;
+  /* position: fixed;+ */
   width: 100%;
   top: 0%;
 }
@@ -271,7 +271,7 @@ h3 {
 @media (min-width: 390px) and (max-width: 1581px) {
   .navbar {
     display: block;
-    width: 396px;
+    width: 410px;
     background-color: rgb(10, 18, 219, 0.85);
   }
   .navbarinside .n {
@@ -282,6 +282,8 @@ h3 {
     position: fixed;
     top: 55px;
     left: -104%;
+    gap: 60px;
+    font-size: 30px;
     width: 100%;
     z-index: 101;
     flex-direction: column;
@@ -319,13 +321,14 @@ h3 {
     margin: 45px 2px;
   }
   #h1 {
+    margin: 60px 2px;
     padding: 5px 25px;
     text-align: center;
     font-size: 50px;
   }
   .part {
     font-size: 20px;
-    margin: 45px 0px;
+    margin: 35px 0px;
     padding: 2px 100px;
   }
 }
