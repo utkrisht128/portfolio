@@ -3,7 +3,7 @@ body {
   padding: 0px 0px;
 }
 .navbar {
-  /* position: fixed;+ */
+  position: fixed;
   width: 100%;
   top: 0%;
 }
