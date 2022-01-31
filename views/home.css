@@ -196,7 +196,7 @@ a:is(:link, :active, :visited).active {
 }
 
 
-@media (min-width: 390px) and (max-width: 1581px) {
+@media (max-width: 400px) {
   .navbar{
     display: block;
     width: 515px;

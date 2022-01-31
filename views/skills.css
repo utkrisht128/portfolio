@@ -268,7 +268,7 @@ h3 {
   background-color: yellow;
 }
 
-@media (min-width: 390px) and (max-width: 1581px) {
+@media (max-width: 400px) {
   .navbar {
     display: block;
     width: 410px;
