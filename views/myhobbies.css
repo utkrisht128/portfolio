@@ -80,7 +80,7 @@ a:is(:link,:active,:visited).active{
     background-color: yellow;
   }
 
-@media (min-width: 390px) and (max-width: 1581px) {
+@media (min-width: 390px) and (max-width: 600px) {
     .navbar{
       display: block;
       width: 510px;
